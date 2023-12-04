@@ -1,5 +1,5 @@
-from ucimlrepo import fetch_ucirepo, list_available_datasets
-list_available_datasets()
+# from ucimlrepo import fetch_ucirepo, list_available_datasets
+# list_available_datasets()
 #heart_disease = fetch_ucirepo(id=42)
 df = fetch_ucirepo(name="Heart Disease")
 X = df.data.features
